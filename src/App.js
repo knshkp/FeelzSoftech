@@ -1,12 +1,19 @@
 import Header from "./Components/Header";
 import Feature from "./Components/Feature";
 import newLogo from './Images/logo.png';
+import AboutUs from "./Components/AboutUs";
+import TrustedClientsPage from "./Components/Client";
+import ContactUsPage from "./Components/ContactUsPage";
 function App() {
   return (
     <div className="App">
       
       <Header/>
+      <AboutUs/>
+      <TrustedClientsPage/>
       <Feature/>
+      <ContactUsPage/>
+      
     </div>
   );
 }

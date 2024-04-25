@@ -37,6 +37,41 @@ input{
   background:linear-gradient(53deg, rgba(0,36,76,1) 0%, rgba(5,16,34,1) 22%, rgba(5,16,34,1) 80%, rgba(13,34,57,1) 98%);
 }
 
+/* About.css */
+.about-container {
+  width: 20%; /* Adjust the width as needed for your layout */
+  padding: 10px;
+  margin: 0 10px;
+  border: 1px solid #ccc; /* Optional border for visibility */
+  border-radius: 8px; /* Rounded corners */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+.about-container:hover{
+  background-color:#0bebff
+}
+.about-description:hover{
+  color:#fff;
+}
+
+.about-image {
+  width: 100%; /* Image takes up the full width of the container */
+  height: auto; /* Auto height to maintain aspect ratio */
+  border-bottom: 1px solid #ddd; /* Optional border below the image */
+  margin-bottom: 10px; /* Space between image and title */
+}
+
+.about-title {
+  font-size: 1.2rem; /* Adjust the font size as desired */
+  margin-bottom: 50px; /* Space between title and description */
+  color:#fff;
+}
+
+.about-description {
+  font-size: 1rem; /* Adjust the font size as desired */
+  color: #666; /* Optional text color */
+}
+
 nav{
   display: flex;
   justify-content: space-around;

@@ -30,8 +30,8 @@ function Header() {
                             Feelz Softech is a complete business solution internet technology firm. We help you grow your business by analyzing your business idea. We provide services such as UI/UX, Mobile App Development, Website Development, Game Development, Data Science, Salesforce, Digital Marketing, SEO, Content Writing, etc. We have experts and successful sellers all over the marketplace in all fields. We take responsibility to get your business in your hands.
                         </p>
                         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: 400 }}>
-                            <a className='cv-btns'>Contact Us</a>
-                            <a className='cv-btn'>View Our Portfolio</a>
+                            <a href='#contacts' className='cv-btns'>Contact Us</a>
+                            <a href='#features' className='cv-btn'>Services</a>
                         </div>
                     </div>
                 </div>

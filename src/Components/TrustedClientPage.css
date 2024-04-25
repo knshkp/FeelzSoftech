@@ -1,0 +1,42 @@
+.trusted-clients-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.client-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.client-card {
+    margin: 20px;
+    width: 4x00px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.client-card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.client-card img {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+    width:400px;
+    height: 140px;
+}
+
+.client-card h3 {
+    color: #000080; /* Dark blue */
+    margin-top: 10px;
+}
+
+.client-card p {
+    color: #666;
+    margin-top: 5px;
+}
