@@ -51,37 +51,37 @@ const TrustedClientsPage = () => {
                     <p>Milk Management & Ecommerce App</p>
                 </div>
                 <div className="client-card">
-                    <h3>Sarju</h3>
+                    <h3 style={{ color: '#0bebff' }}>Sarju</h3>
                     <img src={Sarju} alt="Sarju" />
                     <p>Digital Earning Platform</p>
                 </div>
                 <div className="client-card">
-                    <h3>Relyb</h3>
+                    <h3 style={{ color: '#0bebff' }}>Relyb</h3>
                     <img src={Relyb} alt="Client 3 Logo" />
                     <p>Home Service Provider</p>
                 </div>
                 <div className="client-card">
-                    <h3>Oggy</h3>
+                    <h3 style={{ color: '#0bebff' }}>Oggy</h3>
                     <img src={Oggy} alt="Client 4 Logo" />
                     <p>Coupoun Code Provider</p>
                 </div>
                 <div className="client-card">
-                    <h3>Lucky Brust</h3>
+                    <h3 style={{ color: '#0bebff' }}>Lucky Brust</h3>
                     <img src={Lucky} alt="Client 6 Logo" />
                     <p>Online Spin Game</p>
                 </div>
                 <div className="client-card">
-                    <h3>Cakes World</h3>
+                    <h3 style={{ color: '#0bebff' }}>Cakes World</h3>
                     <img src={Image} alt="Cake Selling App" />
                     <p>Cake Selling App</p>
                 </div>
                 <div className="client-card">
-                    <h3>Aviator</h3>
+                    <h3 style={{ color: '#0bebff' }}>Aviator</h3>
                     <img src={Aviator} alt="Client 6 Logo" />
                     <p>Online Aviator Fantasy Game</p>
                 </div>
                 <div className="client-card">
-                    <h3>Dragon Tiger</h3>
+                    <h3 style={{ color: '#0bebff' }}>Dragon Tiger</h3>
                     <img src={DT} alt="Client 6 Logo" />
                     <p>Online Fantasy Game</p>
                 </div>
