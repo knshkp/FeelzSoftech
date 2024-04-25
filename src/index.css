@@ -39,7 +39,9 @@ input {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(53deg, rgba(0, 36, 76, 1) 0%, rgba(5, 16, 34, 1) 22%, rgba(5, 16, 34, 1) 80%, rgba(13, 34, 57, 1) 98%);
+  background-image: url('./Images/background8.png');
+  background-attachment:fixed;
+  /* background: linear-gradient(53deg, rgba(0, 36, 76, 1) 0%, rgba(5, 16, 34, 1) 22%, rgba(5, 16, 34, 1) 80%, rgba(13, 34, 57, 1) 98%); */
 }
 
 /* About.css */
@@ -158,6 +160,7 @@ nav ul {
   width: 800px;
   height: auto;
   border-radius: 10px;
+  background-attachment: fixed;
 }
 
 nav ul li a {
@@ -200,16 +203,13 @@ nav .menu-btn,
   justify-content: center;
 }
 
-/* Header.css */
-.name typewrite {
-  font-size: 1.5rem;
-  color: #3498db;
-  font-weight: bold;
-  margin: 10px 0;
-}
-
 .name span {
-  color: #3498db;
+  color: #0bebff;;
+  font-weight:bold;
+  font-size:35px;
+  align-items: center;
+  justify-content: center;
+  margin-left:80px
 }
 
 .name .details {

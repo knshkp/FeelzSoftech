@@ -12,20 +12,28 @@ function Header() {
                 {/* Flex container */}
                 <div className='content'>
                     <div className='name'>
-                        <h1>Welcome to Feelz Softech</h1>
-                        <Typewriter className='typewrite'
+                        <h1>WELCOME TO FEELZ SOFTECH</h1>
+                        <Typewriter
+                            className='typewrite'
+                            options={{
+                                showCursor: false, // Add this line to show the cursor
+                            }}
                             onInit={(typewriter) => {
                                 typewriter
-                                    .typeString("Android App Development")
-                                    .pauseFor(1000)
-                                    .deleteAll()
-                                    .typeString("All Type Game Development")
-                                    .pauseFor(1000)
-                                    .deleteAll()
-                                    .typeString("Web Development Solutions")
-                                    .start();
+                                .typeString("Android App Development")
+                                .pauseFor(1000)
+                                .deleteAll()
+                                .typeString("Game Development")
+                                .pauseFor(1000)
+                                .deleteAll()
+                                .typeString("Web Development")
+                                .pauseFor(1000)
+                                .deleteAll()
+                                .typeString("Data Science")
+                                .start();
                             }}
                         />
+
                         <p className='details'>
                             Feelz Softech is a complete business solution internet technology firm. We help you grow your business by analyzing your business idea. We provide services such as UI/UX, Mobile App Development, Website Development, Game Development, Data Science, Salesforce, Digital Marketing, SEO, Content Writing, etc. We have experts and successful sellers all over the marketplace in all fields. We take responsibility to get your business in your hands.
                         </p>
@@ -34,10 +42,6 @@ function Header() {
                             <a href='#features' className='cv-btn'>Services</a>
                         </div>
                     </div>
-                </div>
-                {/* Image container */}
-                <div className='image-container'>
-                    <img src={sideImage} alt='Feelz Softech' className='header-image' />
                 </div>
             </div>
         </div>
